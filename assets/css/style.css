@@ -1,0 +1,113 @@
+.topbox {
+    float: left;
+    height: 71px;
+    margin: 0 0 0 200px;
+	width: 960px;
+}
+
+
+.name {
+    background-color: #4aaaa5;
+	float: left;
+    height: 100%;
+    position: relative;
+	text-align: center;
+    width: 275px;   
+}
+
+
+.navstyle {
+    float: right;
+    height: 100%;
+    position: relative;
+}
+
+
+.greyline {
+    background-color: grey;
+    display: block;
+	height: 2px;
+    width: 100%;
+}
+
+
+.pagecolor {
+    background-color:lightblue;
+    height: auto;
+	padding: 55px 0 0 0;
+    width: 100%;	
+}
+
+
+.biosection {
+	background-color:white;
+    border-style: solid;
+	height: 500px;
+    margin: 0 0 0 200px;
+    position: relative;
+    width: 960px;
+}
+
+
+.indentaboutme {
+    margin: 10px 0 10px 50px;
+}
+
+
+.myimage { 
+    border: 2px solid black;
+	float: left;
+	height: auto;
+	position: relative;
+	transform: rotate(90deg);
+    width: 200px;
+}
+
+
+.line2 {  
+    background-color: grey;
+    display: block;
+	height: 2px;
+	margin: 0 10px;
+    width: 940px;  
+}
+
+
+.thirdblock {
+    position: relative;
+}
+
+
+.line3 {
+	background-color: #4aaaa5;
+    display: block;
+	font-size: 0px;
+	height: 5px;
+    position: relative;
+    width: 100%;   
+}
+
+
+.copyrightblock {
+    position: sticky;
+	background-color: grey;
+    display: block;
+    height: 50px;
+    position: relative;
+	text-align: center;
+    width: 100%;
+}
+
+
+.copyrighttxt {
+    background-color: grey;
+    color: white;
+    display: block; 
+    height: auto;
+    margin: 0 0 0 200px;
+	position: relative;
+    text-align: center;
+	width: 960px;
+}
+
+
