@@ -2,6 +2,7 @@
     float: left;
     height: 71px;
     margin: 0 0 0 200px;
+    padding: 0;
 	width: 960px;
 }
 
@@ -9,16 +10,21 @@
 .name {
     background-color: #4aaaa5;
 	float: left;
-    height: 100%;
-    position: relative;
-	text-align: center;
+    height: 61px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    position: absolute;
+    text-align: center;
     width: 275px;   
 }
 
+.style {
+    margin: 0;
+}
 
 .navstyle {
     float: right;
-    height: 100%;
+    height: 71px;
     position: relative;
 }
 
@@ -26,13 +32,14 @@
 .greyline {
     background-color: grey;
     display: block;
-	height: 2px;
+    height: 2px;
+    margin: 0;
     width: 100%;
 }
 
 
 .pagecolor {
-    background-color:lightblue;
+    background: url(../../dust_scratches.png);
     height: auto;
 	padding: 55px 0 0 0;
     width: 100%;	
@@ -41,9 +48,9 @@
 
 .biosection {
 	background-color:white;
-    border-style: solid;
 	height: 500px;
     margin: 0 0 0 200px;
+    padding: 0 20px;
     position: relative;
     width: 960px;
 }
@@ -53,6 +60,48 @@
     margin: 10px 0 10px 50px;
 }
 
+
+.indentcontact {
+    margin: 10px 0 10px 10px;
+}
+
+
+.indentcontent {
+    margin: 0 0 0 10px;
+}
+
+
+.entrybox {
+    height: 35px;
+    margin: 5px 0 5px 10px;
+    width: 940px;
+    border: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+.msgentrybox {
+    height: 150px;
+    margin: 5px 0 5px 10px;
+    width: 940px;
+    padding: 2px 0 0 0;
+    border: grey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.submitbutton {
+    background-color: grey;
+    color:white;
+    height: 35px;
+    widows: 50px;
+    margin: 5px 0 5px 10px;
+    font-size: 15px;
+    border:grey;
+    border-style: solid;
+    border-width: 1px;
+}
 
 .myimage { 
     border: 2px solid black;
@@ -75,25 +124,29 @@
 
 .thirdblock {
     position: relative;
+    margin: 0;
 }
 
 
 .line3 {
-	background-color: #4aaaa5;
+    position: fixed;
+    bottom: 50px;
+    background-color: #4aaaa5;
     display: block;
 	font-size: 0px;
-	height: 5px;
-    position: relative;
+    height: 5px;
+    border-width: 0;
     width: 100%;   
 }
 
 
 .copyrightblock {
-    position: sticky;
+    position: fixed;
+    bottom: 0;
 	background-color: grey;
     display: block;
     height: 50px;
-    position: relative;
+    margin: 0;
 	text-align: center;
     width: 100%;
 }
