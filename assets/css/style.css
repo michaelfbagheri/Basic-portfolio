@@ -1,164 +1,39 @@
-.topbox {
-    color: #cccccc;
-    float: left;
-    height: 71px;
-    margin: 0 0 0 200px;
-    padding: 0;
-	width: 960px;
-}
-
-
-.name {
-    background-color: #4aaaa5;
-    color: white;
-    float: left;
-    font-family: 'Sawarabi Mincho', sans-serif;
-    
-    height: 61px;
-    margin: 0;
-    padding: 10px 0 0 0;
-    position: absolute;
-    text-align: center;
-    width: 275px;   
-}
-
-.style {
-    margin: 0;
-}
-
-
-.navstyle {
-    float: right;
-    height: 71px;
-    position: relative;
-}
-
-
-.greyline {
-    background-color: grey;
-    display: block;
-    height: 2px;
-    margin: 0;
-    width: 100%;
-}
-
-
-.pagecolor {
-    background: url(../../assets/images/dust_scratches.png);
-    height: 100%;
-	padding: 55px 0 0 0;
-    width: 100%;	
-}
-
-
 .biosection {
 	background-color: #ffffff;
+	font-size: 16px;
+    font-weight: 400;
+    font-family: 'Sawarabi Mincho', sans-serif;
 	height: 550px;
     margin: 0 0 0 200px;
     padding: 0 20px;
     position: relative;
     width: 960px;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Sawarabi Mincho', sans-serif;
-
 }
 
 
-.indentheader {
-    margin: 10px 0 10px 10px;
-    color: #4aaaa5;
-}
-
-.indentcontent{
-    margin: 0 0 0 10px;
-    font-family: 'Sawarabi Mincho', sans-serif;
-}
-
-
-.entrybox {
-    border: grey;
-    border-style: solid;
-    border-width: 1px;
-    height: 35px;
-    margin: 5px 0 5px 10px;
-    width: 940px;
-   
-}
-
-
-.msgentrybox {
-    height: 200px;
-    margin: 5px 0 5px 10px;
-    width: 940px;
-    padding: 2px 0 0 10px;
-    border: grey;
-    border-style: solid;
-    border-width: 1px;
-}
-
-.submitbutton {
-    background-color: grey;
-    color:white;
-    height: 35px;
-    widows: 50px;
-    margin: 5px 0 5px 10px;
-    font-size: 15px;
-    border:grey;
-    border-style: solid;
-    border-width: 1px;
-    
-}
-
-.submitbutton:hover {
-    background-color: blue;
-    
-}
-
-
-.myimage { 
-    border: 2px solid black;
-	float: left;
-	height: auto;
-	transform: rotate(0deg);
-    width: 200px;
-}
-
-.firstparagraphindent {
-    padding: 0 0 0 220px;
-}
-
-.line2 {  
-    background-color: grey;
-    display: block;
-	height: 2px;
-	margin: 0 10px;
-    width: 940px;  
-}
-
-
-.thirdblock {
+.bottomimagecontainer {
+    float: left;
     position: relative;
-    margin: 0;
+    width: 950px;
 }
 
 
-.line3 {
-    position: fixed;
-    bottom: 50px;
-    background-color: #4aaaa5;
-    display: block;
-	font-size: 0px;
-    height: 5px;
-    border-width: 0;
-    width: 100%;   
+.comingsoon {
+    color: orangered;
+    bottom: 40px;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5;
+    position: absolute;
+    text-align: center;
+    width: 100%;
 }
 
 
 .copyrightblock {
-    color: #666666;
     background-color: grey;
     bottom: 0;
+    color: #666666;
     display: block;
     height: 50px;
     margin: 0;
@@ -180,61 +55,235 @@
 }
 
 
-.topimagecontainer {
-    position: relative;
-    float: left;
-    width: 950px;
+.entrybox {
+    border: grey;
+    border-style: solid;
+    border-width: 1px;
+    height: 35px;
+    margin: 5px 0 5px 10px;
+    width: 940px;
 }
 
-.bottomimagecontainer {
-    position: relative;
+
+.firstparagraphindent {
+    padding: 0 0 0 220px;
+}
+
+
+.greyline {
+    background-color: grey;
+    display: block;
+    height: 2px;
+    margin: 0;
+    width: 100%;
+}
+
+
+.indentheader {
+    color: #4aaaa5;
+    margin: 10px 0 10px 10px;
+}
+
+.indentcontent{
+    margin: 0 0 0 10px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+
+.line2 {  
+    background-color: grey;
+    display: block;
+	height: 2px;
+	margin: 0 10px;
+    width: 940px;  
+}
+
+
+.line3 {
+	background-color: #4aaaa5;
+	border-width: 0;
+    bottom: 50px;
+    display: block;
+	font-size: 0px;
+    height: 5px;
+	position: fixed;
+    width: 100%;   
+}
+
+
+.msgentrybox {
+	border: grey;
+    border-style: solid;
+    border-width: 1px;
+    height: 200px;
+    margin: 5px 0 5px 10px;
+    padding: 2px 0 0 10px;
+	width: 940px;
+}
+
+
+.myimage { 
+    border: 2px solid black;
+	float: left;
+	height: auto;
+	transform: rotate(0deg);
+    width: 200px;
+}
+
+
+.name {
+    background-color: #4aaaa5;
+    color: white;
     float: left;
-    width: 950px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+    height: 61px;
+    margin: 0;
+    padding: 10px 0 0 0;
+    position: absolute;
+    text-align: center;
+    width: 275px;   
+}
+
+
+.navstyle {
+    float: right;
+    height: 71px;
+    position: relative;
+}
+
+
+.pagecolor {
+    background: url(../../assets/images/dust_scratches.png);
+    height: 100%;
+	padding: 55px 0 0 0;
+    width: 100%;	
+}
+
+
+.piclabel {
+     font-size: Auto;
+	 text-align: center;
+}
+
+
+.portfoliocontainers {
+    float: left;
+	position: relative;
+    margin: 5px;
 }
 
 
 .Portimage1{
-    position: relative;
+	border: 2px solid black;
     float: left;
-    border: 2px solid black;
     height: 150px;
     margin: 5px;
+	position: relative;
 	transform: rotate(0deg);
     width: 150px;
 }
-.piclabel {
-     text-align: center;
-     font-size: Auto;
-}
-
 
 
 .Portimage2{
-    position: relative;
+	border: 2px solid black;
     float: left;
-    border: 2px solid black;
     height: 150px;
     margin: 50px 5px 5px 5px;
+	position: relative;
 	transform: rotate(0deg);
     width: 150px;
 }
 
 
+.style {
+    margin: 0;
+}
 
 
-.portfoliocontainers {
+.submitbutton {
+    background-color: grey;
+    border:grey;
+    border-style: solid;
+    border-width: 1px;
+    color:white;
+    height: 35px;
+    font-size: 15px;
+    margin: 5px 0 5px 10px;
+	width: 100px;
+}
+
+
+.submitbutton:hover {
+    background-color:white;   
+    content: "Not working" 
+}
+
+
+.thirdblock {
+    margin: 0;
     position: relative;
-    float: left;
-    margin: 5px;
+
 }
 
-.comingsoon {
-    position: absolute;
-    bottom: 40px;
-    color: orangered;
-    width: 100%;
-    padding: 5;
-    font-size: 12px;
-    text-align: center;
-    font-weight: bold;
+
+.topbox {
+    color: #cccccc;
+    float: left;
+    height: 71px;
+    margin: 0 0 0 200px;
+    padding: 0;
+	width: 960px;
 }
+
+
+.topimagecontainer {
+    float: left;
+    position: relative;	
+    width: 950px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
